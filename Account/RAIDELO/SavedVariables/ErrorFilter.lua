@@ -1,4 +1,3 @@
-
 DB_Options = {
 	["isEnabled"] = true,
 	["isShown"] = false,

@@ -1,4 +1,3 @@
-
 DCP_Saved = {
 	["fadeInTime"] = 0.3,
 	["petOverlay"] = {

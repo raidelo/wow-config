@@ -1,10 +1,8 @@
-
 DrDamageDB = {
-	["profileKeys"] = {
-		["Messier - sKing"] = "Messier - sKing",
-	},
 	["profiles"] = {
-		["Messier - sKing"] = {
-		},
+		["main"] = {},
+	},
+	["profileKeys"] = {
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 }

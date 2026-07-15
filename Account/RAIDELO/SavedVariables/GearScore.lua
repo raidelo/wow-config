@@ -1,6 +1,5 @@
-
 GS_Data = {
-	["sKing"] = {
+	["Blackrock [PvP only]"] = {
 		["Players"] = {
 			["Messier"] = {
 				["PVP"] = 1,
@@ -75,11 +74,9 @@ GS_Data = {
 				["Class"] = "DR",
 			},
 		},
-		["CurrentPlayer"] = {
-		},
+		["CurrentPlayer"] = {},
 	},
-	["CurrentTarget"] = {
-	},
+	["CurrentTarget"] = {},
 }
 GS_Settings = {
 	["Developer"] = 0,
@@ -104,8 +101,7 @@ GS_Settings = {
 	["AutoPrune"] = 1,
 	["KeepFaction"] = -1,
 	["Level"] = -1,
-	["ShowSpecScores"] = {
-	},
+	["ShowSpecScores"] = {},
 	["Archavon"] = 2900,
 	["Emalon"] = 3650,
 	["Crusade"] = 4100,
