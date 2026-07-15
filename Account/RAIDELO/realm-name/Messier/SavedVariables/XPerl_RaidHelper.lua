@@ -1,4 +1,3 @@
-
 XPerlConfigHelper = {
 	["UseCTRATargets"] = 1,
 	["MTTargetTargets"] = 1,
@@ -39,5 +38,4 @@ XPerlConfigHelper = {
 	["UnitWidth"] = 100,
 	["TargetCountersEnemy"] = 1,
 }
-XPerl_MainTanks = {
-}
+XPerl_MainTanks = {}

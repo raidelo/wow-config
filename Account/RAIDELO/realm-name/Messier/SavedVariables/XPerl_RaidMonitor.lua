@@ -1,4 +1,3 @@
-
 XPerlRaidMonConfig = {
 	["BackgroundAlpha"] = 0.8,
 	["UnitWidth"] = 120,

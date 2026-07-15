@@ -1,9 +1,7 @@
-
 XPerl_Admin = {
 	["Transparency"] = 0.8,
 	["ResistSort"] = "fr",
-	["SavedRosters"] = {
-	},
+	["SavedRosters"] = {},
 	["AutoHideShow"] = 1,
 }
 XPerl_CheckItems = {
