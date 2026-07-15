@@ -1,8 +1,6 @@
-
 WeakAurasSaved = {
 	["login_squelch_time"] = 10,
-	["registered"] = {
-	},
+	["registered"] = {},
 	["displays"] = {
 		["CDs1"] = {
 			["xOffset"] = 0,
@@ -39,20 +37,16 @@ WeakAurasSaved = {
 			["height"] = 100,
 			["load"] = {
 				["role"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["spec"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["class"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["size"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 			},
 			["fontSize"] = 20,
@@ -65,10 +59,8 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["auto"] = true,
 			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
+				["start"] = {},
+				["finish"] = {},
 			},
 			["id"] = "CDs1",
 			["animation"] = {
@@ -87,8 +79,7 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 100,
-			["untrigger"] = {
-			},
+			["untrigger"] = {},
 			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
@@ -138,20 +129,16 @@ WeakAurasSaved = {
 			["height"] = 100,
 			["load"] = {
 				["role"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["class"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["spec"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["size"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 			},
 			["fontSize"] = 20,
@@ -164,10 +151,8 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["auto"] = true,
 			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
+				["start"] = {},
+				["finish"] = {},
 			},
 			["id"] = "CDs2",
 			["animation"] = {
@@ -186,8 +171,7 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 100,
-			["untrigger"] = {
-			},
+			["untrigger"] = {},
 			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
@@ -234,20 +218,16 @@ WeakAurasSaved = {
 			["height"] = 100,
 			["load"] = {
 				["role"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["class"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["spec"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 				["size"] = {
-					["multi"] = {
-					},
+					["multi"] = {},
 				},
 			},
 			["fontSize"] = 20,
@@ -260,10 +240,8 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["auto"] = true,
 			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
+				["start"] = {},
+				["finish"] = {},
 			},
 			["id"] = "CDs3",
 			["animation"] = {
@@ -282,8 +260,7 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 100,
-			["untrigger"] = {
-			},
+			["untrigger"] = {},
 			["numTriggers"] = 1,
 			["inverse"] = false,
 			["BFgloss"] = 0,
