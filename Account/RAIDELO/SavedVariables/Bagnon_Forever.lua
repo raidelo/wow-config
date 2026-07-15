@@ -1,7 +1,6 @@
-
 BagnonForeverDB = {
 	["version"] = "1.1.2",
-	["sKing"] = {
+	["Blackrock [PvP only]"] = {
 		["Messier"] = {
 			"49635", -- [1]
 			"18590,30", -- [2]
