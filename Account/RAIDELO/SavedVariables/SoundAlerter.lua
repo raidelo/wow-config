@@ -1,4 +1,3 @@
-
 SoundAlerterDB = {
 	["profileKeys"] = {
 		["Messier - sKing"] = "Default",
