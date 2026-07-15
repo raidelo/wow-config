@@ -1,17 +1,12 @@
-
 Quartz3DB = {
 	["namespaces"] = {
-		["Swing"] = {
-		},
-		["Buff"] = {
-		},
-		["Interrupt"] = {
-		},
-		["Flight"] = {
-		},
+		["Swing"] = {},
+		["Buff"] = {},
+		["Interrupt"] = {},
+		["Flight"] = {},
 		["Pet"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["y"] = 625,
 					["x"] = 580,
 				},
@@ -19,17 +14,16 @@ Quartz3DB = {
 		},
 		["Player"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["y"] = 253,
 					["x"] = 580,
 				},
 			},
 		},
-		["GCD"] = {
-		},
+		["GCD"] = {},
 		["Focus"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["y"] = 625,
 					["x"] = 820,
 				},
@@ -37,28 +31,24 @@ Quartz3DB = {
 		},
 		["Target"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["y"] = 585,
 					["x"] = 580,
 				},
 			},
 		},
-		["Range"] = {
-		},
-		["Mirror"] = {
-		},
-		["Latency"] = {
-		},
-	},
-	["profileKeys"] = {
-		["Messier - sKing"] = "Yup",
-		["Messier - Lordaeron"] = "Yup",
+		["Range"] = {},
+		["Mirror"] = {},
+		["Latency"] = {},
 	},
 	["profiles"] = {
-		["Yup"] = {
+		["main"] = {
 			["modules"] = {
 				["Buff"] = false,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 }
