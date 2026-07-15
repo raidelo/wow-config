@@ -1,2 +1,1 @@
-
 AtlasLootAdvancedSearchConfig = nil

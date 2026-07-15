@@ -1,16 +1,10 @@
-
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Messier - sKing",
-		["Messier - Lordaeron"] = "Messier - Lordaeron",
+		["Messier - Lordaeron"] = "main",
 	},
 	["profiles"] = {
-		["Messier - sKing"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51104",
-		},
-		["Messier - Lordaeron"] = {
+		["main"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
 		},
@@ -26,10 +20,8 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 		},
 	},
-	["Shared"] = {
-	},
+	["Shared"] = {},
 	["Own"] = {
-		["Messier"] = {
-		},
+		["Messier"] = {},
 	},
 }
