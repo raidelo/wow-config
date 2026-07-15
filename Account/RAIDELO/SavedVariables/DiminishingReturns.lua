@@ -1,20 +1,14 @@
-
 DiminishingReturnsDB = {
 	["namespaces"] = {
-		["Nameplates"] = {
-		},
-		["Blizzard"] = {
-		},
-		["XPerl"] = {
-		},
-		["Gladius"] = {
-		},
-	},
-	["profileKeys"] = {
-		["Messier - sKing"] = "Messier - sKing",
+		["Nameplates"] = {},
+		["Blizzard"] = {},
+		["XPerl"] = {},
+		["Gladius"] = {},
 	},
 	["profiles"] = {
-		["Messier - sKing"] = {
-		},
+		["main"] = {},
+	},
+	["profileKeys"] = {
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 }
