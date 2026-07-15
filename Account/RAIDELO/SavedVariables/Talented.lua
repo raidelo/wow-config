@@ -1,8 +1,6 @@
-
 TalentedDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Yup",
-		["Messier - Lordaeron"] = "Yup",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["global"] = {
 		["templates"] = {
@@ -72,7 +70,7 @@ TalentedDB = {
 		},
 	},
 	["profiles"] = {
-		["Yup"] = {
+		["main"] = {
 			["confirmlearn"] = false,
 			["always_edit"] = true,
 			["framepos"] = {
