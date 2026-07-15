@@ -1,7 +1,6 @@
-
 GenieDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Default",
+		["Messier - Blackrock [PvP only]"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -150,8 +149,7 @@ GenieDB = {
 				}, -- [21]
 			},
 			["bags"] = {
-				["ignore"] = {
-				},
+				["ignore"] = {},
 			},
 		},
 	},

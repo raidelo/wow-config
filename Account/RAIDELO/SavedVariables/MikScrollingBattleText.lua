@@ -1,4 +1,3 @@
-
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
@@ -21,8 +20,6 @@ MSBTProfiles_SavedVars = {
 	},
 }
 MSBT_SavedMedia = {
-	["fonts"] = {
-	},
-	["sounds"] = {
-	},
+	["fonts"] = {},
+	["sounds"] = {},
 }

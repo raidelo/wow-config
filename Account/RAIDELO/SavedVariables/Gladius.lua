@@ -1,11 +1,9 @@
-
 GladiusDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Yup",
-		["Messier - Lordaeron"] = "Yup",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
-		["Yup"] = {
+		["main"] = {
 			["locked"] = true,
 			["y"] = 545,
 			["x"] = 1090,
