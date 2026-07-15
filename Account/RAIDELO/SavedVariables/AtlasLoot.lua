@@ -1,7 +1,7 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Messier - Lordaeron"] = "main",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
 		["main"] = {
