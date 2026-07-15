@@ -1,4 +1,3 @@
-
 NeedToKnow_Settings = {
 	["Spec"] = {
 		{
