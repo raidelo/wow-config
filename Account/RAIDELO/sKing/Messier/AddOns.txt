@@ -1,0 +1,5 @@
+Acherus: disabled
+AcherusLoader: disabled
+XPerl_RaidMonitor: enabled
+XPerl_Options: enabled
+XPerl_TeamSpeak: disabled
