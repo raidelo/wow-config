@@ -1,4 +1,3 @@
-
 LoseControlDB = {
 	["version"] = 3.32,
 	["noCooldownCount"] = false,

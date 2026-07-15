@@ -1,4 +1,3 @@
-
 DBM_SavedOptions = {
 	["SpecialWarningFontSize"] = 50,
 	["ShowWarningsInChat"] = true,
@@ -79,6 +78,5 @@ DBM_SavedOptions = {
 	["ArrowPoint"] = "TOP",
 }
 DBT_SavedOptions = {
-	["DBM"] = {
-	},
+	["DBM"] = {},
 }

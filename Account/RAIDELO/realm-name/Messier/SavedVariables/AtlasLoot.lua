@@ -1,13 +1,9 @@
-
 AtlasLootCharDB = {
-	["QuickLooks"] = {
-	},
-	["WishList"] = {
-	},
+	["QuickLooks"] = {},
+	["WishList"] = {},
 	["AtlasLootVersion"] = "51104",
 	["AutoQuery"] = false,
-	["SearchResult"] = {
-	},
+	["SearchResult"] = {},
 }
 AtlasLootFilterDB = {
 	["Relics"] = {

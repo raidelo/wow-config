@@ -1,6 +1,4 @@
-
-MBB_Exclude = {
-}
+MBB_Exclude = {}
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,

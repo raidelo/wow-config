@@ -1,4 +1,3 @@
-
 AtlasOptions = {
 	["AtlasScale"] = 1,
 	["AtlasClamped"] = true,
