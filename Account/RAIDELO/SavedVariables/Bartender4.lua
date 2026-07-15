@@ -1,9 +1,8 @@
-
 Bartender4DB = {
 	["namespaces"] = {
 		["ActionBars"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
@@ -57,19 +56,16 @@ Bartender4DB = {
 								["scale"] = 1.450000047683716,
 							},
 						}, -- [6]
-						{
-						}, -- [7]
-						[9] = {
-						},
-						[10] = {
-						},
+						{}, -- [7]
+						[9] = {},
+						[10] = {},
 					},
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["position"] = {
 						["y"] = 32.39999944343347,
 						["x"] = 238.4000629629686,
@@ -82,7 +78,7 @@ Bartender4DB = {
 		},
 		["XPBar"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["enabled"] = true,
 					["position"] = {
 						["y"] = 3.999980853818443,
@@ -93,11 +89,10 @@ Bartender4DB = {
 				},
 			},
 		},
-		["BlizzardArt"] = {
-		},
+		["BlizzardArt"] = {},
 		["BagBar"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 36.00000492330381,
@@ -109,7 +104,7 @@ Bartender4DB = {
 		},
 		["Vehicle"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 46.00000300868567,
@@ -121,7 +116,7 @@ Bartender4DB = {
 		},
 		["StanceBar"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["position"] = {
 						["y"] = 174.6250306509852,
 						["x"] = -54.00016164847511,
@@ -133,7 +128,7 @@ Bartender4DB = {
 		},
 		["PetBar"] = {
 			["profiles"] = {
-				["Yup"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 158.9999391424945,
@@ -143,15 +138,13 @@ Bartender4DB = {
 				},
 			},
 		},
-		["RepBar"] = {
-		},
+		["RepBar"] = {},
 	},
 	["profileKeys"] = {
-		["Messier - sKing"] = "Yup",
-		["Messier - Lordaeron"] = "Yup",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
-		["Yup"] = {
+		["main"] = {
 			["buttonlock"] = true,
 		},
 	},
