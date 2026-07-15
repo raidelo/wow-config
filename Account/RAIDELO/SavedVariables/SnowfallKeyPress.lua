@@ -1,4 +1,3 @@
-
 SnowfallKeyPressSV = {
 	["keys"] = {
 		"'", -- [1]

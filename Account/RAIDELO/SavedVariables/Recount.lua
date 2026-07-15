@@ -1,10 +1,9 @@
-
 RecountDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Messier - sKing",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
-		["Messier - sKing"] = {
+		["main"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
