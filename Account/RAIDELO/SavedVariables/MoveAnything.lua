@@ -1,9 +1,6 @@
-
-MoveAnything_CustomFrames = {
-}
+MoveAnything_CustomFrames = {}
 MoveAnything_CharacterSettings = {
-	["default"] = {
-	},
+	["default"] = {},
 }
 MoveAnything_UseCharacterSettings = nil
 MADB = {
