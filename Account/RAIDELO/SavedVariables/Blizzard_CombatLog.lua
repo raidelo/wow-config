@@ -1,4 +1,3 @@
-
 Blizzard_CombatLog_Filters = {
 	["filters"] = {
 		{
@@ -66,8 +65,7 @@ Blizzard_CombatLog_Filters = {
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
 				},
-				["eventColoring"] = {
-				},
+				["eventColoring"] = {},
 				["defaults"] = {
 					["damage"] = {
 						["a"] = 1,
@@ -308,8 +306,7 @@ Blizzard_CombatLog_Filters = {
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
 				},
-				["eventColoring"] = {
-				},
+				["eventColoring"] = {},
 				["defaults"] = {
 					["damage"] = {
 						["a"] = 1,
@@ -600,8 +597,7 @@ Blizzard_CombatLog_Filters = {
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
 				},
-				["eventColoring"] = {
-				},
+				["eventColoring"] = {},
 				["defaults"] = {
 					["damage"] = {
 						["a"] = 1,
@@ -887,8 +883,7 @@ Blizzard_CombatLog_Filters = {
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
 				},
-				["eventColoring"] = {
-				},
+				["eventColoring"] = {},
 				["defaults"] = {
 					["damage"] = {
 						["a"] = 1,

@@ -1,4 +1,3 @@
-
 NxData = {
 	["NXHUDOpts"] = {
 		["Version"] = 0.03,
@@ -244,17 +243,13 @@ NxData = {
 	},
 	["NXTravel"] = {
 		["Version"] = 0.1,
-		["TaxiTime"] = {
-		},
+		["TaxiTime"] = {},
 	},
 	["NXGather"] = {
 		["Version"] = 0.5,
-		["Misc"] = {
-		},
-		["NXHerb"] = {
-		},
-		["NXMine"] = {
-		},
+		["Misc"] = {},
+		["NXHerb"] = {},
+		["NXMine"] = {},
 	},
 	["Characters"] = {
 		["sKing.Messier"] = {
@@ -456,14 +451,10 @@ NxData = {
 						["NXMapId"] = 4003,
 					}, -- [18]
 				},
-				["Death"] = {
-				},
-				["Kill"] = {
-				},
-				["Mine"] = {
-				},
-				["Herb"] = {
-				},
+				["Death"] = {},
+				["Kill"] = {},
+				["Mine"] = {},
+				["Herb"] = {},
 			},
 			["Class"] = "Warlock",
 			["LLevel"] = 80,
@@ -479,10 +470,8 @@ NxData = {
 			},
 			["TimePlayed"] = 1703699,
 			["L"] = {
-				["Events"] = {
-				},
-				["Quest"] = {
-				},
+				["Events"] = {},
+				["Quest"] = {},
 				["Version"] = 0.1,
 			},
 			["XP"] = 4115,
@@ -891,33 +880,26 @@ NxData = {
 	["NXSocial"] = {
 		["Version"] = 0.2,
 		["sKing"] = {
-			["PkAct"] = {
-			},
+			["PkAct"] = {},
 			["Pal"] = {
-				[""] = {
-				},
+				[""] = {},
 			},
-			["Pk"] = {
-			},
+			["Pk"] = {},
 		},
 	},
 	["NXVer1"] = 3.34,
 	["NXWare"] = {
 		["Version"] = 0.1,
 		["sKing"] = {
-			["THE VOID COUNCIL"] = {
-			},
+			["THE VOID COUNCIL"] = {},
 		},
 	},
-	["NXVendorV"] = {
-	},
+	["NXVendorV"] = {},
 	["Version"] = 0.02,
 	["NXCap"] = {
-		["Q"] = {
-		},
+		["Q"] = {},
 		["Version"] = 0.5,
-		["NPC"] = {
-		},
+		["NPC"] = {},
 	},
 	["NXQOpts"] = {
 		["NXWHideDist"] = 20000,

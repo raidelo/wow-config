@@ -1,4 +1,3 @@
-
 BonusScannerConfig = {
 	["showgemcount"] = 0,
 	["extendediteminfo"] = 0,
