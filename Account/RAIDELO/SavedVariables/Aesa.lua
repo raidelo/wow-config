@@ -1,11 +1,9 @@
-
 AesaDB = {
 	["profileKeys"] = {
-		["Messier - sKing"] = "Yup",
-		["Messier - Lordaeron"] = "Yup",
+		["Messier - Lordaeron"] = "main",
 	},
 	["profiles"] = {
-		["Yup"] = {
+		["main"] = {
 			["cd"] = {
 				["target"] = {
 					["y"] = 185,
