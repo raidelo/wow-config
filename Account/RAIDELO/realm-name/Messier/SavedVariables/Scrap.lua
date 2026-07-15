@@ -1,3 +1,1 @@
-
-Scrap_List = {
-}
+Scrap_List = {}
