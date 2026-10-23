@@ -1,0 +1,82 @@
+MACRO 1 "Warlock Armors" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Armadura vil, Armadura demoníaca
+END
+MACRO 2 "Warlock Teletransport" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Círculo demoníaco: teletransporte
+END
+MACRO 6 " " INV_Misc_QuestionMark
+#showtooltip Invocar manáfago
+/cast Dominación vil
+/castsequence reset=7 Invocar manáfago; Enlace de alma
+END
+MACRO 4 " " Ability_Creature_Disease_02
+/focus [target=mouseover, exists]; [target=target]
+END
+MACRO 3 " " Ability_BackStab
+/duelo
+END
+MACRO 7 " " INV_Misc_QuestionMark
+#showtooltip Invocar abisario
+/cast Dominación vil
+/castsequence reset=7 Invocar abisario; Enlace de alma
+/cast Sacrificio
+END
+MACRO 5 " " INV_Misc_QuestionMark
+#showtooltip Invocar súcubo
+/cast Dominación vil
+/castsequence reset=7 Invocar súcubo; Enlace de alma
+END
+MACRO 8 " " INV_Misc_QuestionMark
+#showtooltip
+/cast [target=player] Detectar invisibilidad
+END
+MACRO 10 " " INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] Mordedura de las sombras; [@mouseover] Latigazo doloroso; [@mouseover] Descarga de fuego
+END
+MACRO 11 " " Ability_Hunter_BeastTraining
+/ceder
+END
+MACRO 12 " " Ability_Hunter_CriticalShot
+#showtooltip
+/petattack [@mouseover]
+END
+MACRO 16 " " INV_Misc_QuestionMark
+/cast seducción
+END
+MACRO 17 " " INV_Misc_QuestionMark
+/petfollow
+END
+MACRO 18 " " INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod,@focus,exists] Semilla de corrupción; [mod:shift,@target] Semilla de corrupción; Semilla de corrupción; [mod:ctrl] Torrente arcano
+END
+MACRO 19 " " INV_Misc_QuestionMark
+/reirse
+END
+MACRO 20 " " INV_Misc_QuestionMark
+/bostezar
+END
+MACRO 22 " " INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Detectar invisibilidad; [mod:shift] Aliento inagotable
+END
+MACRO 24 " " INV_Misc_QuestionMark
+#showtooltip Poseer
+/cast Poseer
+/cast Mordedura de las sombras
+END
+MACRO 25 " " Ability_BullRush
+/ceder
+END
+MACRO 26 " " INV_Misc_QuestionMark
+#showtooltip
+/cast Tormento
+END
+MACRO 15 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Miedo;  [target=mouseover,exists,mod:ctrl] Miedo; [target=mouseover,exists,mod:shift] Miedo
+END
