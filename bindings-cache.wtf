@@ -21,7 +21,7 @@ bind 8 NONE
 bind 9 NONE
 bind 0 NONE
 bind ' NONE
-bind ¿ NONE
+bind Â¿ NONE
 bind X CLICK BT4Button13:LeftButton
 bind F CLICK BT4Button14:LeftButton
 bind G CLICK BT4Button15:LeftButton
