@@ -1,0 +1,87 @@
+MACRO 17777216 "Afli E" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Descarga de las Sombras; [mod:shift,nochanneling:Drenar vida] Drenar vida; [mod:ctrl,nochanneling:Drenar maná,@target][mod:alt,nochanneling:Drenar maná,@focus] Drenar maná
+END
+MACRO 17777217 " Demon 2" INV_Misc_QuestionMark
+#showtooltip Incinerar
+/cast Cuchilla de las Sombras(Demonio)
+/cast Incinerar
+/cast [pet:Guardia Vil] Rajar
+END
+MACRO 17777218 " Demon 4" INV_Misc_QuestionMark
+#showtooltip
+/cast Metamorfosis
+/castsequence reset=20 Aura de Inmolación, Carga de demonio
+/cast Cuchilla de las Sombras(Demonio)
+/cast [pet:Guardia Vil] Rajar
+END
+MACRO 17777219 " Demon E" INV_Misc_QuestionMark
+#showtooltip Descarga de las Sombras
+/cast Cuchilla de las Sombras(Demonio)
+/cast Descarga de las Sombras
+/cast [pet:Guardia Vil] Rajar
+END
+MACRO 17777220 " Demon R" INV_Misc_QuestionMark
+#showtooltip
+/cast Cuchilla de las Sombras(Demonio)
+/cast [nomod] Fuego de alma; [mod:shift] Lluvia de fuego
+/focus [mod:ctrl,@mouseover,exists][mod:ctrl] target
+END
+MACRO 17777221 "Destro BTN3" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Espiral de la muerte
+END
+MACRO 17777222 "Destro E" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Incinerar; [mod:shift,nochanneling:Drenar vida] Drenar vida; [mod:ctrl,nochanneling:Drenar maná,@target][mod:alt,nochanneling:Drenar maná,@focus] Drenar maná
+END
+MACRO 17777223 "Destro R" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Fuego de alma; [mod:shift] Lluvia de fuego
+/focus [mod:ctrl,@mouseover,exists][mod:ctrl] target
+END
+MACRO 17777224 "Destro F" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod][mod:alt,@focus] Maldición de los elementos; [mod:shift,@target][mod:ctrl,@focus] Maldición de las lenguas
+END
+MACRO 17777225 "Destro G" INV_Misc_QuestionMark
+#showtooltip [nomod] Piedra de salud vil; [mod:shift] Poción de maná rúnica
+/usar [nomod] Piedra de salud vil
+/usar [nomod] Poción de sanación rúnica
+/usar [mod:shift] Poción de maná rúnica
+END
+MACRO 17777226 "Destro H" INV_Misc_QuestionMark
+#showtooltip Sacrificio
+/cast Dominación vil
+/castsequence reset=10 Invocar abisario; Enlace de alma
+/cast Sacrificio
+END
+MACRO 17777227 "Destro C" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Miedo
+END
+MACRO 17777228 "Destro V" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Seducción
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Bloqueo de hechizo
+END
+MACRO 17777229 "Destro B" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod,@player][mod:shift,@mouseover,exists][mod:shift][mod:ctrl,@focus] Devorar magia
+/cast [nomod] Sacrificio
+END
+MACRO 17777230 "Destro Manáfago" INV_Misc_QuestionMark
+#showtooltip Invocar manáfago
+/cast Dominación vil
+/castsequence reset=10 Invocar manáfago; Enlace de alma
+END
+MACRO 17777231 "Destro Súcubo" INV_Misc_QuestionMark
+#showtooltip Invocar súcubo
+/cast Dominación vil
+/castsequence reset=10 Invocar súcubo; Enlace de alma
+END
+MACRO 17777232 "Destro Abisario" INV_Misc_QuestionMark
+#showtooltip Invocar abisario
+/cast Dominación vil
+/castsequence reset=10 Invocar abisario; Enlace de alma
+END
