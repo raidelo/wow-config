@@ -1,3 +1,6 @@
 SET movie "0"
 SET readTOS "1"
 SET readEULA "1"
+SET gxResolution "1920x1080"
+SET gxRefresh "60"
+SET hwDetect "0"
