@@ -66,6 +66,7 @@ TalentedDB = {
 			["Xokas"] = "Dmp3aZmZwAdAmoB1r1racu",
 		},
 	},
+	["profileKeys"] = {},
 	["profiles"] = {
 		["main"] = {
 			["confirmlearn"] = false,
