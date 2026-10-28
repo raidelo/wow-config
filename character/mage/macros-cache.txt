@@ -29,9 +29,17 @@ MACRO 17777221 "Frost C" INV_Misc_QuestionMark
 #showtooltip
 /cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Polimorfia
 END
+MACRO 17777222 "Frost V" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Contrahechizo
+END
+MACRO 17777223 "Frost B" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Robar hechizo; [mod:shift,@mouseover,exists][mod:shift,@player] Eliminar maldición
+END
 MACRO 17777230 "Fire 1" INV_Misc_QuestionMark
 #showtooltip
-/cast Combustión
 /cast Venas heladas
+/cast Combustión
 /cast Reflejo exacto
 END
