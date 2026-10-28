@@ -1,8 +1,13 @@
-MACRO 1 "Warlock Armors" INV_Misc_QuestionMark
+MACRO 1 " " Ability_Druid_TravelForm
+#showtooltip
+/click [nomounted,flyable,nomod:shift] BT4Button52; [nomounted] BT4Button53
+/dismount [mounted]
+END
+MACRO 2 "Warlock Armors" INV_Misc_QuestionMark
 #showtooltip
 /castsequence Armadura vil, Armadura demoníaca
 END
-MACRO 2 "Warlock Teletransport" INV_Misc_QuestionMark
+MACRO 3 "Warlock Teletransport" INV_Misc_QuestionMark
 #showtooltip
 /stopcasting
 /cast Círculo demoníaco: teletransporte
