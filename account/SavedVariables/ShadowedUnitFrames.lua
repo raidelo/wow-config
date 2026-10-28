@@ -248,7 +248,12 @@ ShadowedUFDB = {
 					["y"] = -125,
 				},
 				["raid"] = {
-					["anchorPoint"] = "C",
+					["point"] = "TOPLEFT",
+					["bottom"] = 535,
+					["x"] = 15,
+					["relativePoint"] = "BOTTOMLEFT",
+					["top"] = 760,
+					["y"] = 760,
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "RB",
