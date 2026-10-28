@@ -1,0 +1,40 @@
+MACRO 17777216 "Frost 3" INV_Misc_QuestionMark
+#showtooltip
+/cast Descarga de escarcha(Rango 1)
+/cast Descarga de agua
+END
+MACRO 17777217 "Frost E" INV_Misc_QuestionMark
+#showtooltip
+/cast Descarga de escarcha
+/cast Descarga de agua
+END
+MACRO 17777218 "Frost Q" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,harm] Lanza de hielo; Lanza de hielo
+END
+MACRO 17777219 "Frost Z" INV_Misc_QuestionMark
+#showtooltip
+/cast [nopet] Invocar elemental de agua
+/stop macro [nopet]
+/petpassive
+/cast Congelar
+END
+MACRO 17777220 "Frost N" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Bloque de hielo
+/stopcasting
+/cast Bloque de hielo
+END
+MACRO 17777221 "Frost C" INV_Misc_QuestionMark
+#showtooltip Polimorfia
+/cast [modifier:ctrl, target=focus] Polimorfia
+/cast [nomodifier:ctrl] Polimorfia
+/petpassive
+/petfollow
+END
+MACRO 17777230 "Fire 1" INV_Misc_QuestionMark
+#showtooltip
+/cast Combustión
+/cast Venas heladas
+/cast Reflejo exacto
+END
