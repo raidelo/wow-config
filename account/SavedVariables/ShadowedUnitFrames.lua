@@ -3305,6 +3305,14 @@ ShadowedUFDB = {
 				},
 				["borderTexture"] = "None",
 			},
+			["visibility"] = {
+				["raid"] = {
+					["party"] = false,
+				},
+				["pvp"] = {
+					["party"] = false,
+				},
+			},
 			["auras"] = {
 				["borderType"] = "light",
 			},
