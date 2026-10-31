@@ -1438,6 +1438,7 @@ ShadowedUFDB = {
 					},
 				},
 				["party"] = {
+					["hideAnyRaid"] = true,
 					["highlight"] = {
 						["size"] = 10,
 					},
@@ -3309,14 +3310,6 @@ ShadowedUFDB = {
 					["b"] = 0,
 				},
 				["borderTexture"] = "None",
-			},
-			["visibility"] = {
-				["raid"] = {
-					["party"] = false,
-				},
-				["pvp"] = {
-					["party"] = false,
-				},
 			},
 			["auras"] = {
 				["borderType"] = "light",
