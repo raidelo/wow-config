@@ -44,3 +44,10 @@ MACRO 16 " " INV_Misc_QuestionMark
 /cast Poseer
 /cast Mordedura de las sombras
 END
+MACRO 20 "Reset" Ability_Hunter_Readiness
+/run ResetInstances()
+/run print("Instancias reiniciadas")
+END
+MACRO 21 "Go" Ability_Hunter_SniperShot
+/gp go
+END
