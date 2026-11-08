@@ -15,31 +15,6 @@ MACRO 11 " " INV_Misc_QuestionMark
 /stopcasting
 /cast Círculo demoníaco: teletransporte
 END
-MACRO 17777217 "Demon 2" INV_Misc_QuestionMark
-#showtooltip Incinerar
-/cast Cuchilla de las Sombras(Demonio)
-/cast Incinerar
-/cast [pet:Guardia Vil] Rajar
-END
-MACRO 17777218 "Demon 4" INV_Misc_QuestionMark
-#showtooltip
-/cast Metamorfosis
-/castsequence reset=20 Aura de Inmolación, Carga de demonio
-/cast Cuchilla de las Sombras(Demonio)
-/cast [pet:Guardia Vil] Rajar
-END
-MACRO 17777219 "Demon E" INV_Misc_QuestionMark
-#showtooltip Descarga de las Sombras
-/cast Cuchilla de las Sombras(Demonio)
-/cast Descarga de las Sombras
-/cast [pet:Guardia Vil] Rajar
-END
-MACRO 17777220 "Demon R" INV_Misc_QuestionMark
-#showtooltip
-/cast Cuchilla de las Sombras(Demonio)
-/cast [nomod] Fuego de alma; [mod:shift] Lluvia de fuego
-/focus [mod:ctrl,@mouseover,exists][mod:ctrl] target
-END
 MACRO 17777221 " " INV_Misc_QuestionMark
 #showtooltip
 /cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Espiral de la muerte
