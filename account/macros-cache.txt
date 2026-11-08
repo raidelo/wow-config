@@ -10,27 +10,6 @@ MACRO 5 "PetAttack" Ability_Hunter_CriticalShot
 #showtooltip
 /petattack [@mouseover]
 END
-MACRO 11 "Warlock Teletransport" INV_Misc_QuestionMark
-#showtooltip
-/stopcasting
-/cast Círculo demoníaco: teletransporte
-END
-MACRO 12 " " INV_Misc_QuestionMark
-#showtooltip Invocar manáfago
-/cast Dominación vil
-/castsequence reset=7 Invocar manáfago; Enlace de alma
-END
-MACRO 13 " " INV_Misc_QuestionMark
-#showtooltip Invocar abisario
-/cast Dominación vil
-/castsequence reset=7 Invocar abisario; Enlace de alma
-/cast Sacrificio
-END
-MACRO 14 " " INV_Misc_QuestionMark
-#showtooltip Invocar súcubo
-/cast Dominación vil
-/castsequence reset=7 Invocar súcubo; Enlace de alma
-END
 MACRO 20 "Reset" Ability_Hunter_Readiness
 /run ResetInstances()
 /run print("Instancias reiniciadas")
