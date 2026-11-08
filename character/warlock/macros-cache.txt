@@ -44,21 +44,25 @@ MACRO 17777221 " " INV_Misc_QuestionMark
 #showtooltip
 /cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Espiral de la muerte
 END
-MACRO 17777224 "Destro F" INV_Misc_QuestionMark
+MACRO 17777222 "Destro F" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomod][mod:alt,@focus] Maldición de los elementos; [mod:shift,@target][mod:ctrl,@focus] Maldición de las lenguas
 END
-MACRO 17777225 " " INV_Misc_QuestionMark
+MACRO 17777223 " " INV_Misc_QuestionMark
 #showtooltip [nomod] Piedra de salud vil; [mod:shift] Poción de maná rúnica
 /usar [nomod] Piedra de salud vil
 /usar [nomod] Poción de sanación rúnica
 /usar [mod:shift] Poción de maná rúnica
 END
-MACRO 17777226 "Sacrificio" INV_Misc_QuestionMark
+MACRO 17777224 "Sacrificio" INV_Misc_QuestionMark
 #showtooltip Sacrificio
 /cast Dominación vil
 /castsequence reset=10 Invocar abisario; Enlace de alma
 /cast Sacrificio
+END
+MACRO 17777226 "Destro Z" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Desterrar
 END
 MACRO 17777227 "Destro C" INV_Misc_QuestionMark
 #showtooltip
