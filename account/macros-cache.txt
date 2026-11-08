@@ -3,7 +3,7 @@ MACRO 1 " " Ability_Druid_TravelForm
 /click [nomounted,flyable,nomod:shift] BT4Button70; [nomounted] BT4Button71
 /dismount [mounted]
 END
-MACRO 4 " " Ability_Creature_Disease_02
+MACRO 4 "Focus" Ability_Creature_Disease_02
 /focus [target=mouseover, exists]; [target=target]
 END
 MACRO 5 "PetAttack" Ability_Hunter_CriticalShot
