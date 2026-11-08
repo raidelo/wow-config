@@ -51,3 +51,11 @@ END
 MACRO 21 "Go" Ability_Hunter_SniperShot
 /gp go
 END
+MACRO 22 "Spec1" Ability_Druid_Eclipse
+/run SetActiveTalentGroup(1)
+/equipslot PVP
+END
+MACRO 23 "Spec2" Ability_Druid_EclipseOrange
+/run SetActiveTalentGroup(2)
+/equipslot PVE
+END
