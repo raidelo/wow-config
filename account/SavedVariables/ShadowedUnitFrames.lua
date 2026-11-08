@@ -414,6 +414,7 @@ ShadowedUFDB = {
 						["order"] = 25,
 					},
 					["emptyBar"] = {
+						["enabled"] = true,
 						["order"] = 0,
 						["background"] = true,
 						["reactionType"] = "none",
@@ -450,36 +451,38 @@ ShadowedUFDB = {
 					},
 					["text"] = {
 						{
-							["text"] = "[(()afk() )][name][( ()group())]",
-							["width"] = 0.5,
-							["y"] = 0,
-							["x"] = 3,
 							["anchorPoint"] = "CLI",
+							["text"] = "[perhp]",
+							["width"] = 0.5,
+							["x"] = 3,
+							["y"] = 0,
 						}, -- [1]
 						{
-							["width"] = 0.6,
 							["anchorPoint"] = "CRI",
+							["text"] = "[curmaxhp]",
+							["width"] = 0.6,
 							["x"] = -3,
 							["y"] = 0,
 						}, -- [2]
 						{
+							["anchorPoint"] = "CLI",
 							["text"] = "[perpp]",
 							["width"] = 0.5,
-							["y"] = 0,
 							["x"] = 3,
-							["anchorPoint"] = "CLI",
+							["y"] = 0,
 						}, -- [3]
 						{
-							["width"] = 0.6,
 							["anchorPoint"] = "CRI",
+							["text"] = "[curmaxpp]",
+							["width"] = 0.6,
 							["x"] = -3,
 							["y"] = 0,
 						}, -- [4]
 						{
+							["anchorPoint"] = "CLI",
 							["text"] = "[(()afk() )][name][( ()group())]",
 							["width"] = 1,
 							["x"] = 3,
-							["anchorPoint"] = "CLI",
 						}, -- [5]
 					},
 					["highlight"] = {
@@ -816,6 +819,7 @@ ShadowedUFDB = {
 					},
 					["width"] = 180,
 					["emptyBar"] = {
+						["enabled"] = true,
 						["order"] = 0,
 						["background"] = true,
 						["reactionType"] = "none",
