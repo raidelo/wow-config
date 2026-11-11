@@ -10,62 +10,63 @@ MACRO 17777216 " " INV_Misc_QuestionMark
 #showtooltip
 /cast [nochanneling:Drenar alma] Drenar alma
 END
-MACRO 11 " " INV_Misc_QuestionMark
-#showtooltip Círculo demoníaco: teletransporte
+
+MACRO 17777217 " " INV_Misc_QuestionMark
+#showtooltip
 /stopcasting
-/cast Círculo demoníaco: teletransporte
+/cast [mod:shift] Círculo demoníaco: invocar; Círculo demoníaco: teletransporte
 END
-MACRO 17777221 " " INV_Misc_QuestionMark
+
+MACRO 17777220 " " INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Espiral de la muerte
+/cast [mod:shift,@focus,harm][nomod,@mouseover,harm,nodead][nomod] Espiral de la muerte
 END
-MACRO 17777222 "Destro F" INV_Misc_QuestionMark
+MACRO 17777221 "Destro Z" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod][mod:alt,@focus] Maldición de los elementos; [mod:shift,@target][mod:ctrl,@focus] Maldición de las lenguas
+/cast [mod:shift,@focus,harm][nomod,@mouseover,harm,nodead][nomod] Desterrar
 END
-MACRO 17777223 " " INV_Misc_QuestionMark
-#showtooltip [nomod] Piedra de salud vil; [mod:shift] Poción de maná rúnica
-/usar [nomod] Piedra de salud vil
-/usar [nomod] Poción de sanación rúnica
-/usar [mod:shift] Poción de maná rúnica
+MACRO 17777222 "Destro C" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,@focus,harm][nomod,@mouseover,harm,nodead][nomod] Miedo
 END
-MACRO 17777224 "Sacrificio" INV_Misc_QuestionMark
+
+MACRO 17777223 "Destro V" INV_Misc_QuestionMark
+#showtooltip
+/cast [pet:Abisario] Consumir sombras; [pet:Súcubo,mod:shift,@focus,harm][pet:Súcubo,nomod,@mouseover,harm,nodead][pet:Súcubo,nomod] Seducción; [mod:shift,@focus,harm][nomod,@mouseover,harm,nodead][nomod] Bloqueo de hechizo
+END
+MACRO 17777224 "Destro B" INV_Misc_QuestionMark
+#showtooltip
+/cast [pet:Súcubo] Invisibilidad inferior; [pet:Abisario] Sacrificio; [mod:ctrl,@focus,exists][mod:shift,@mouseover,exists][mod:shift][@player] Devorar magia
+END
+
+MACRO 17777225 "Destro F" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,@focus,harm][nomod] Maldición de los elementos; [mod:ctrl,@focus,harm][mod:shift] Maldición de las lenguas
+END
+
+MACRO 17777227 " " INV_Misc_QuestionMark
+#showtooltip
+/use [mod:shift] Poción de sanación rúnica; [mod:ctrl] Poción de maná rúnica; Piedra de salud vil
+END
+
+MACRO 17777228 "Sacrificio" INV_Misc_QuestionMark
 #showtooltip Sacrificio
-/cast Dominación vil
-/castsequence reset=10 Invocar abisario; Enlace de alma
-/cast Sacrificio
+/cast [combat,nopet:Abisario] Dominación vil
+/cast [nopet:Abisario] Invocar abisario; Sacrificio
 END
-MACRO 17777226 "Destro Z" INV_Misc_QuestionMark
-#showtooltip
-/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Desterrar
-END
-MACRO 17777227 "Destro C" INV_Misc_QuestionMark
-#showtooltip
-/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Miedo
-END
-MACRO 17777228 "Destro V" INV_Misc_QuestionMark
-#showtooltip [pet:Manáfago] Bloqueo de hechizo; [pet:Súcubo] Seducción; [pet:Abisario] Consumir sombras
-/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Seducción
-/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Bloqueo de hechizo
-END
-MACRO 17777229 "Destro B" INV_Misc_QuestionMark
-#showtooltip [pet:Manáfago] Devorar magia; [pet:Súcubo] Invisibilidad inferior; [pet:Abisario] Sacrificio
-/cast [nomod,@player][mod:shift,@mouseover,exists][mod:shift][mod:ctrl,@focus] Devorar magia
-/cast Invisibilidad inferior
-/cast Sacrificio
-END
+
 MACRO 17777230 "Manáfago" INV_Misc_QuestionMark
 #showtooltip Invocar manáfago
-/cast Dominación vil
-/castsequence reset=10 Invocar manáfago; Enlace de alma
+/cast [combat,nopet:Manáfago] Dominación vil
+/cast [nopet:Manáfago] Invocar manáfago; Enlace de alma
 END
 MACRO 17777231 "Súcubo" INV_Misc_QuestionMark
 #showtooltip Invocar súcubo
-/cast Dominación vil
-/castsequence reset=10 Invocar súcubo; Enlace de alma
+/cast [combat,nopet:Súcubo] Dominación vil
+/cast [nopet:Súcubo] Invocar súcubo; Enlace de alma
 END
 MACRO 17777232 "Abisario" INV_Misc_QuestionMark
 #showtooltip Invocar abisario
-/cast Dominación vil
-/castsequence reset=10 Invocar abisario; Enlace de alma
+/cast [combat,nopet:Abisario] Dominación vil
+/cast [nopet:Abisario] Invocar abisario; Enlace de alma
 END
