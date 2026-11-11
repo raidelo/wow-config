@@ -4,7 +4,7 @@ MACRO 1 " " Ability_Druid_TravelForm
 /dismount [mounted]
 END
 MACRO 4 "Focus" Ability_Creature_Disease_02
-/focus [target=mouseover, exists]; [target=target]
+/focus [@mouseover,exists,nodead][]
 END
 MACRO 5 "PetAttack" Ability_Hunter_CriticalShot
 #showtooltip
