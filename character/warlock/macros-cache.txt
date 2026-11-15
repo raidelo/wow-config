@@ -13,8 +13,10 @@ END
 
 MACRO 17777217 " " INV_Misc_QuestionMark
 #showtooltip
+/cast [mod:shift] Círculo demoníaco: invocar
+/stopmacro [mod:shift]
 /stopcasting
-/cast [mod:shift] Círculo demoníaco: invocar; Círculo demoníaco: teletransporte
+/cast Círculo demoníaco: teletransporte
 END
 
 MACRO 17777220 " " INV_Misc_QuestionMark
