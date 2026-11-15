@@ -46,7 +46,8 @@ END
 
 MACRO 17777227 " " INV_Misc_QuestionMark
 #showtooltip
-/use [mod:shift] Poción de sanación rúnica; [mod:ctrl] Poción de maná rúnica; Piedra de salud vil
+# spec:1 -> PVP; spec:2 -> PVE; item:36892 -> Life Stone (LS); item:36893 -> 10% upgraded LS; item:36894 -> 20% upgraded LS
+/use [mod:shift] Poción de sanación rúnica; [mod:ctrl] Poción de maná rúnica; [spec:1] item:36894; [spec:2] item:36892
 END
 
 MACRO 17777228 "Sacrificio" INV_Misc_QuestionMark
