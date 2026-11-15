@@ -1,0 +1,33 @@
+MACRO 17777210 " " INV_Misc_QuestionMark
+#showtooltip Porrazo
+/cleartarget
+/targetenemyplayer
+/cast porrazo
+/stopattack
+END
+
+MACRO 17777220 " " INV_Misc_QuestionMark
+#showtooltip Porrazo
+/cast [@focus] Porrazo
+END
+MACRO 17777221 " " INV_Misc_QuestionMark
+#showtooltip Golpe bajo
+/cast [@focus] Golpe bajo
+END
+MACRO 17777222 " " INV_Misc_QuestionMark
+#showtooltip Gubia
+/cast [@focus] Gubia
+END
+MACRO 17777223 " " INV_Misc_QuestionMark
+#showtooltip Desguarnecer
+/cast [@focus] Desguarnecer
+END
+MACRO 17777224 " " INV_Misc_QuestionMark
+#showtooltip Puyazo
+/cast [@focus] Puyazo
+END
+
+MACRO 17777230 " " INV_Misc_QuestionMark
+#showtooltip Secretos del oficio
+/cast [target=Party1] Secretos del oficio
+END
